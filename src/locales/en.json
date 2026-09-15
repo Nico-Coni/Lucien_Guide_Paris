@@ -1,0 +1,57 @@
+{
+    "header": {
+        "brandHomeLabel": "Paris à Pas — Home",
+        "tagline": "Stories · Places · Encounters",
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu",
+        "mainNavigation": "Main navigation",
+        "languageSelector": "Choose language",
+        "switchLanguage": {
+            "fr": "Display the website in French",
+            "en": "Display the website in English"
+        },
+        "book": "Book now",
+        "navigation": {
+            "home": "Home",
+            "tours": "Tours",
+            "about": "About",
+            "contact": "Contact"
+        }
+    },
+    "carousel": {
+        "label": "Selection of guided tours in Paris",
+        "roledescription": "carousel",
+        "slide": "slide",
+        "previous": "Show the previous tour",
+        "next": "Show the next tour",
+        "goToSlide": "Show tour {{number}}",
+        "position": "Tour {{current}} of {{total}}",
+        "discover": "Discover this tour",
+        "tours": {
+            "passages": {
+                "category": "Private tour",
+                "title": "The secret passages of Paris",
+                "description": "Discover the hidden stories of the French capital with a passionate guide.",
+                "duration": "2 hr 30 min",
+                "price": "From €45",
+                "imageAlt": "A historic covered passage in Paris"
+            },
+            "montmartre": {
+                "category": "Iconic neighbourhood",
+                "title": "A different side of Montmartre",
+                "description": "Explore the streets, studios and stories of the neighbourhood away from the usual paths.",
+                "duration": "2 hr",
+                "price": "From €40",
+                "imageAlt": "Montmartre and Sacré-Cœur at sunset"
+            },
+            "louvre": {
+                "category": "Art and history",
+                "title": "A private tour of the Louvre",
+                "description": "Journey through the centuries with a lively selection of the museum’s masterpieces.",
+                "duration": "2 hr 30 min",
+                "price": "From €55",
+                "imageAlt": "The Louvre palace and its glass pyramid"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "header": {
+        "brandHomeLabel": "Paris à Pas — Accueil",
+        "tagline": "Histoires · Lieux · Rencontres",
+        "openMenu": "Ouvrir le menu",
+        "closeMenu": "Fermer le menu",
+        "mainNavigation": "Navigation principale",
+        "languageSelector": "Choisir la langue",
+        "switchLanguage": {
+            "fr": "Afficher le site en francais",
+            "en": "Afficher le site en anglais"
+        },
+        "book": "Réserver",
+        "navigation": {
+            "home": "Accueil",
+            "tours": "Les visites",
+            "about": "À propos",
+            "contact": "Contact"
+        }
+    },
+    "carousel": {
+        "label": "Sélection de visites guidées à Paris",
+        "roledescription": "carrousel",
+        "slide": "diapositive",
+        "previous": "Afficher la visite précédente",
+        "next": "Afficher la visite suivante",
+        "goToSlide": "Afficher la visite {{number}}",
+        "position": "Visite {{current}} sur {{total}}",
+        "discover": "Découvrir cette visite",
+        "tours": {
+            "passages": {
+                "category": "Visite privée",
+                "title": "Le Paris des passages secrets",
+                "description": "Découvrez les histoires cachées de la capitale avec un guide passionné.",
+                "duration": "2 h 30",
+                "price": "À partir de 45 €",
+                "imageAlt": "Un passage couvert historique de Paris"
+            },
+            "montmartre": {
+                "category": "Quartier emblématique",
+                "title": "Montmartre autrement",
+                "description": "Explorez les ruelles, ateliers et histoires du quartier loin des chemins habituels.",
+                "duration": "2 h",
+                "price": "À partir de 40 €",
+                "imageAlt": "Montmartre et le Sacré-Cœur au soleil couchant"
+            },
+            "louvre": {
+                "category": "Art et histoire",
+                "title": "Le Louvre en privé",
+                "description": "Traversez les siècles à travers une sélection vivante des chefs-d’œuvre du musée.",
+                "duration": "2 h 30",
+                "price": "À partir de 55 €",
+                "imageAlt": "Le palais du Louvre et sa pyramide de verre"
+            }
+        }
+    }
+}
