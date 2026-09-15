@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from './components/Header/Header.tsx'
 import Carousel, { type CarouselTour, } from './components/Carousel/Carousel.tsx'
 import CategoryTours from './components/CategoryTours/CategoryTours.tsx'
