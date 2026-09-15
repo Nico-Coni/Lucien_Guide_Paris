@@ -28,7 +28,7 @@
         "position": "Visite {{current}} sur {{total}}",
         "discover": "Découvrir cette visite",
         "tours": {
-            "passages": {
+            "latin": {
                 "category": "Visite privée",
                 "title": "Le Paris des passages secrets",
                 "description": "Découvrez les histoires cachées de la capitale avec un guide passionné.",
@@ -44,13 +44,37 @@
                 "price": "À partir de 40 €",
                 "imageAlt": "Montmartre et le Sacré-Cœur au soleil couchant"
             },
-            "louvre": {
+            "marais": {
                 "category": "Art et histoire",
-                "title": "Le Louvre en privé",
-                "description": "Traversez les siècles à travers une sélection vivante des chefs-d’œuvre du musée.",
+                "title": "Le Marais en privé",
+                "description": "Découvrez le quartier historique du Marais avec un guide passionné.",
                 "duration": "2 h 30",
                 "price": "À partir de 55 €",
                 "imageAlt": "Le palais du Louvre et sa pyramide de verre"
+            }
+        }
+    },
+    "categoryTours": {
+        "eyebrow": "Explorer Paris",
+        "title": "Choisissez votre façon de découvrir Paris",
+        "description": "Des visites adaptées à vos envies pour découvrir les musées, les monuments et les lieux secrets de la capitale.",
+        "discover": "Découvrir",
+        "openCategory": "Découvrir la catégorie : {{title}}",
+        "categories": {
+            "museums": {
+                "title": "Visites de musées",
+                "description": "Découvrez les chefs-d’œuvre et les histoires des grands musées parisiens.",
+                "imageAlt": "Une galerie dans un musée parisien"
+            },
+            "monuments": {
+                "title": "Visites de monuments",
+                "description": "Explorez les monuments emblématiques et le patrimoine historique de Paris.",
+                "imageAlt": "Un monument historique de Paris"
+            },
+            "custom": {
+                "title": "Visites personnalisées",
+                "description": "Construisons ensemble une visite privée adaptée à vos centres d’intérêt.",
+                "imageAlt": "Une visite personnalisée dans les rues de Paris"
             }
         }
     }

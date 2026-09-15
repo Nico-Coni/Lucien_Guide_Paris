@@ -28,7 +28,7 @@
         "position": "Tour {{current}} of {{total}}",
         "discover": "Discover this tour",
         "tours": {
-            "passages": {
+            "latin": {
                 "category": "Private tour",
                 "title": "The secret passages of Paris",
                 "description": "Discover the hidden stories of the French capital with a passionate guide.",
@@ -44,13 +44,37 @@
                 "price": "From €40",
                 "imageAlt": "Montmartre and Sacré-Cœur at sunset"
             },
-            "louvre": {
+            "marais": {
                 "category": "Art and history",
-                "title": "A private tour of the Louvre",
-                "description": "Journey through the centuries with a lively selection of the museum’s masterpieces.",
+                "title": "A private tour of the Marais",
+                "description": "Discover the historic quarter of the Marais with a passionate guide.",
                 "duration": "2 hr 30 min",
                 "price": "From €55",
                 "imageAlt": "The Louvre palace and its glass pyramid"
+            }
+        }
+    },
+    "categoryTours": {
+        "eyebrow": "Explore Paris",
+        "title": "Choose how you want to discover Paris",
+        "description": "Tours tailored to your interests, from museums and monuments to the hidden treasures of the French capital.",
+        "discover": "Discover",
+        "openCategory": "Discover the category: {{title}}",
+        "categories": {
+            "museums": {
+                "title": "Museum tours",
+                "description": "Discover the masterpieces and stories behind Paris’s greatest museums.",
+                "imageAlt": "A gallery inside a Parisian museum"
+            },
+            "monuments": {
+                "title": "Monument tours",
+                "description": "Explore Paris’s iconic monuments and fascinating historical heritage.",
+                "imageAlt": "A historic monument in Paris"
+            },
+            "custom": {
+                "title": "Custom tours",
+                "description": "Let’s create a private tour tailored to your interests and preferences.",
+                "imageAlt": "A personalised guided tour through the streets of Paris"
             }
         }
     }

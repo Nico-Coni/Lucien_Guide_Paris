@@ -1,8 +1,8 @@
 import { useState, type JSX } from "react";
 import { useTranslation } from "react-i18next";
-import "./Caroussel.scss";
+import "./Carousel.scss";
 
-export type TourId = "passages" | "montmartre" | "louvre";
+export type TourId = "latin" | "montmartre" | "marais";
 
 export type CarouselTour = {
     id: TourId;
