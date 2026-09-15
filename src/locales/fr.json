@@ -77,5 +77,39 @@
                 "imageAlt": "Une visite personnalisée dans les rues de Paris"
             }
         }
+    },
+    "aboutGuide": {
+        "eyebrow": "Votre guide",
+        "title": "Paris raconté avec passion",
+        "identity": "Lucien, guide-conférencier",
+        "description": "Je vous accompagne hors des sentiers battus pour découvrir un Paris vivant, intime et inoubliable. Chaque visite est une rencontre avec les lieux, les histoires et celles et ceux qui font vibrer la capitale.",
+        "photoAlt": "Lucien, guide-conférencier à Paris",
+        "photoCaption": "Un autre regard sur Paris",
+        "features": {
+            "privateTours": "Petits groupes ou visites privées",
+            "authentic": "Approche humaine et authentique",
+            "experience": "Plus de 10 ans d’expérience",
+            "sustainable": "Paris durable et responsable"
+        },
+        "quote": "Faire découvrir Paris, c’est avant tout partager des émotions et des rencontres.",
+        "signature": "Lucien"
+    },
+    "footer": {
+        "description": "Des visites guidées pour vivre Paris autrement, au fil de ses histoires, de ses lieux et de ses rencontres.",
+        "explore": "Explorer",
+        "contact": "Contact",
+        "location": "Paris, France",
+        "seeYouSoon": "À très bientôt dans les rues de Paris !",
+        "socialNetworks": "Réseaux sociaux",
+        "newsletter": {
+            "title": "La lettre de Paris",
+            "description": "Des idées de visites et des histoires inédites directement dans votre boîte mail.",
+            "emailLabel": "Votre adresse e-mail",
+            "placeholder": "Votre adresse e-mail",
+            "submit": "S’inscrire"
+        },
+        "copyright": "Des histoires vraies, à hauteur de pas.",
+        "legalNotice": "Mentions légales",
+        "privacyPolicy": "Politique de confidentialité"
     }
 }

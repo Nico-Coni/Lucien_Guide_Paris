@@ -3,11 +3,13 @@ import Header from './components/Header/Header.tsx'
 import Carousel, { type CarouselTour, } from './components/Carousel/Carousel.tsx'
 import CategoryTours from './components/CategoryTours/CategoryTours.tsx'
 import Footer from './components/Footer/Footer.tsx'
+import AboutGuide from './components/AboutGuide/AboutGuide.tsx'
 import './App.scss'
 
 import LatinImage from "./assets/latin.jpg";
 import MontmartreImage from "./assets/montmartre.jpg";
 import MaraisImage from "./assets/marais.jpg";
+import LucienPortrait from "./assets/lucien_portrait.jpg";
 
 const tours = [
   {
@@ -36,8 +38,12 @@ function App() {
       <main>
         <Carousel tours={tours} />
         <CategoryTours />
+        <AboutGuide portrait={LucienPortrait} />
       </main>
-      <Footer />
+      <Footer
+        email="info@lucienaparis.com"
+        phone="+33 1 23 45 67 89"
+      />
 
     </>
   )

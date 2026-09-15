@@ -77,5 +77,39 @@
                 "imageAlt": "A personalised guided tour through the streets of Paris"
             }
         }
+    },
+    "aboutGuide": {
+        "eyebrow": "Your guide",
+        "title": "Paris, told with passion",
+        "identity": "Lucien, licensed tour guide",
+        "description": "Join me off the beaten path to discover a lively, intimate and unforgettable Paris. Every tour is an encounter with the places, stories and people that bring the French capital to life.",
+        "photoAlt": "Lucien, a licensed tour guide in Paris",
+        "photoCaption": "See Paris from a different perspective",
+        "features": {
+            "privateTours": "Small groups or private tours",
+            "authentic": "A personal and authentic approach",
+            "experience": "Over 10 years of experience",
+            "sustainable": "Sustainable and responsible Paris"
+        },
+        "quote": "Helping people discover Paris is, above all, about sharing emotions and meaningful encounters.",
+        "signature": "Lucien"
+    },
+    "footer": {
+        "description": "Guided tours that reveal a different side of Paris through its stories, places and people.",
+        "explore": "Explore",
+        "contact": "Contact",
+        "location": "Paris, France",
+        "seeYouSoon": "See you soon in the streets of Paris!",
+        "socialNetworks": "Social media",
+        "newsletter": {
+            "title": "Letters from Paris",
+            "description": "Tour ideas and untold Parisian stories delivered directly to your inbox.",
+            "emailLabel": "Your email address",
+            "placeholder": "Your email address",
+            "submit": "Subscribe"
+        },
+        "copyright": "True stories, one step at a time.",
+        "legalNotice": "Legal notice",
+        "privacyPolicy": "Privacy policy"
     }
 }
