@@ -5,7 +5,7 @@ import type { SupportedLanguage } from "../../i18n";
 import './Header.scss'
 import Louvre from '../../assets/images/louvre.svg'
 import FrenchFlag from '../../assets/images/france-flag.svg'
-import EnglishFlag from '../../assets/images/usa-flag.svg'
+import EnglishFlag from '../../assets/images/uk-flag.svg'
 
 
 const navigation = [
