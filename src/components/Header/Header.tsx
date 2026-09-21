@@ -9,9 +9,9 @@ import EnglishFlag from '../../assets/images/uk-flag.svg'
 
 
 const navigation = [
-    { labelKey: "header.navigation.home", href: "#accueil" },
+    { labelKey: "header.navigation.home", href: "/" },
     { labelKey: "header.navigation.tours", href: "#visites" },
-    { labelKey: "header.navigation.about", href: "#a-propos" },
+    { labelKey: "header.navigation.about", href: "/About" },
     { labelKey: "header.navigation.contact", href: "#contact" },
 ] as const;
 
@@ -42,7 +42,7 @@ function Header(): React.JSX.Element {
             <div className="site-header__inner">
                 <a
                     className="brand"
-                    href="#accueil"
+                    href="/"
                     aria-label={t("header.brandHomeLabel")}
                 >
                     <img className="brand__icon" src={Louvre} alt="Logo de Lucien à Paris" />

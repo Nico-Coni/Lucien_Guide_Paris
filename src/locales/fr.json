@@ -143,5 +143,86 @@
         "copyright": "Des histoires vraies, à hauteur de pas.",
         "legalNotice": "Mentions légales",
         "privacyPolicy": "Politique de confidentialité"
+    },
+    "aboutPage": {
+        "eyebrow": "À propos de Lucien",
+        "title": "Faire découvrir Paris comme on raconte une histoire",
+        "lead": "Je m’appelle Lucien et je suis guide-conférencier. Fort de dix années d'expérience sur le terrain à Paris et de retours toujours très enthousiastes de la part des voyageurs que j'accompagne, je mets toujours un point d'honneur à offrir des visites passionnantes.",
+        "discoverTours": "Découvrir mes visites",
+        "photoAlt": "Portrait de Lucien, guide-conférencier à Paris",
+        "photoCaption": "Lucien, votre guide à Paris",
+        "story": {
+            "eyebrow": "Mon histoire",
+            "title": "Plus qu’une visite, une rencontre avec Paris",
+            "paragraph1": "Avant de me lancer dans cette aventure en 2016, j'ai brièvement été enseignant. Mais en quittant l'éducation nationale j'ai ressenti le besoin de continuer à transmettre ma passion pour l'histoire, mais hors des salles de classe. Grâce à ma licence de guide conférencier je peux aujourd'hui vous guider dans les musées comme dans les moindres recoins de Paris mais aussi dans de nombreux endroits en France!",
+            "paragraph2": "Je brûle d'envie de vous raconter l'histoire de Paris... d'ailleurs, il est souvent difficile de m'arrêter ! Comme tout bon Parisien de naissance, j'ai un caractère entier, un avis sur tout et une pointe d'ironie, mais c'est toujours avec beaucoup d'humour et de bienveillance. Ce qui me plaît, c'est de vous montrer le Paris authentique, loin des clichés : la réalité de la vie dans une métropole complexe et l'histoire passionnante de mon pays.",
+            "paragraph3": "Je suis guide indépendant à temps plein et je suis fier de mon métier. Je m'investis à 100 % pour offrir une expérience sur mesure à mes clients. C'est pourquoi je préfère parfois refuser une demande si le délai de préparation est trop court ou si le sujet ne correspond pas à mes spécialités."
+        },
+        "profile": {
+            "profession": {
+                "label": "Métier",
+                "value": "Guide-conférencier"
+            },
+            "experience": {
+                "label": "Expérience",
+                "value": "Plus de 10 ans"
+            },
+            "format": {
+                "label": "Format",
+                "value": "Visites privées et petits groupes"
+            },
+            "location": {
+                "label": "Localisation",
+                "value": "Paris, France"
+            }
+        },
+        "values": {
+            "eyebrow": "Ma façon de vous guider",
+            "title": "Ma philosophie de visite",
+            "description": "J'adapte avec plaisir mon discours pour captiver les enfants (attention, je suis guide, pas baby-sitter !).",
+            "items": {
+                "storytelling": {
+                    "title": "100% à pied",
+                    "description": "Toutes mes visites se font exclusivement de cette manière pour s'imprégner de l'atmosphère de la ville."
+                },
+                "tailored": {
+                    "title": "Une approche éthique",
+                    "description": "J’essaie de demander un prix accessible et à la mesure de mon travail. Je ne propose pas aux clients des services supplémentaires inutiles pour gonfler le prix final et toucher une commission."
+                },
+                "human": {
+                    "title": "Mes bonnes adresses",
+                    "description": "Je ne suis ni personal shopper ni un pur expert gastronomique, mais je partagerai avec joie mes boutiques préférées et mes meilleures tables de quartier."
+                }
+            }
+        },
+        "classics": {
+            "eyebrow": "",
+            "title": "Mes grands classiques",
+            "description": "Je suis un spécialiste du centre historique de Paris et des grands sites de la région. Parmi mes incontournables, je vous propose :",
+            "items": {
+                "museums&monuments": {
+                    "title": "Les musées et monuments",
+                    "description": "Le musée du Louvre, le château de Versailles, le musée d'Orsay, mon musée préféré Les Invalides, Fontainebleau, le musée Carnavalet…"
+                },
+                "themes&neighborhoods": {
+                    "title": "Les visites de quartiers et visites thématiques",
+                    "description": "Des parcours sur mesure de l'Île de la Cité, au Quartier Latin, aux Halles, dans Le Marais, à Saint-Germain-des-Prés ou encore à Montmartre, à Belleville. Des tours de La Révolution à la libération de Paris…"
+                },
+                "personalized": {
+                    "title": "Des visites personnalisées",
+                    "description": "Je serais ravi de préparer des visites en fonction de vos envies et de vos intérêts, partagez-moi vos idées et je vous proposerai un parcours sur mesure."
+                }
+            }
+        },
+        "quote": {
+            "text": "Être parisien, ce n'est pas être né à Paris, c'est y renaître.",
+            "author": "Sacha Guitry"
+        },
+        "cta": {
+            "eyebrow": "Découvrons Paris ensemble",
+            "title": "Quelle histoire parisienne aimeriez-vous découvrir ?",
+            "description": "Choisissez une visite existante ou contactez-moi pour imaginer un parcours personnalisé.",
+            "button": "Voir les visites"
+        }
     }
 }
