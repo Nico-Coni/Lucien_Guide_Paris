@@ -94,6 +94,38 @@
         "quote": "Faire découvrir Paris, c’est avant tout partager des émotions et des rencontres.",
         "signature": "Lucien"
     },
+    "testimonials": {
+        "eyebrow": "Ils ont découvert Paris",
+        "title": "Les mots de nos visiteurs",
+        "description": "Quelques souvenirs partagés après une visite de Paris avec Lucien.",
+        "rating": "Note : {{count}} étoiles sur 5",
+        "carousel": {
+            "label": "Avis de nos visiteurs",
+            "roledescription": "carrousel",
+            "slide": "avis",
+            "previous": "Afficher l’avis précédent",
+            "next": "Afficher l’avis suivant",
+            "goToSlide": "Afficher l’avis {{number}}",
+            "position": "Avis {{current}} sur {{total}}"
+        },
+        "items": {
+            "first": {
+                "quote": "Ajoutez ici le premier avis client.",
+                "author": "Premier client",
+                "details": "Ville · Visite effectuée"
+            },
+            "second": {
+                "quote": "Ajoutez ici le deuxième avis client.",
+                "author": "Deuxième client",
+                "details": "Ville · Visite effectuée"
+            },
+            "third": {
+                "quote": "Ajoutez ici le troisième avis client.",
+                "author": "Troisième client",
+                "details": "Ville · Visite effectuée"
+            }
+        }
+    },
     "footer": {
         "description": "Des visites guidées pour vivre Paris autrement, au fil de ses histoires, de ses lieux et de ses rencontres.",
         "explore": "Explorer",

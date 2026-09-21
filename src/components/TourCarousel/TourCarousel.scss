@@ -1,0 +1,71 @@
+.tour-carousel {
+    color: var(--navy, #173b65);
+    background: #d8d2c6;
+
+    .carousel__slide {
+        min-height: 620px;
+        align-items: center;
+    }
+}
+
+.tour-slide {
+
+    &__image,
+    &__overlay {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__image {
+        z-index: -2;
+        object-fit: cover;
+    }
+
+    &__overlay {
+        z-index: -1;
+        background:
+            linear-gradient(90deg,
+                rgba(13, 34, 57, 0.38),
+                transparent 62%),
+            linear-gradient(0deg,
+                rgba(13, 34, 57, 0.24),
+                transparent 45%);
+    }
+
+    &__content {
+        width: min(1180px, calc(100% - 144px));
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 850px) {
+    .tour-carousel {
+        .carousel__slide {
+            min-height: 590px;
+            align-items: flex-end;
+            padding-bottom: 68px;
+        }
+
+        .carousel__arrow {
+            top: 42%;
+        }
+    }
+
+    .tour-slide__content {
+        width: min(calc(100% - 40px), 620px);
+    }
+}
+
+@media (max-width: 480px) {
+    .tour-carousel {
+        .carousel__slide {
+            min-height: 650px;
+        }
+    }
+
+    .tour-slide__content {
+        width: calc(100% - 28px);
+    }
+}

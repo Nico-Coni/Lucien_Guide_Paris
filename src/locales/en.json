@@ -94,6 +94,38 @@
         "quote": "Helping people discover Paris is, above all, about sharing emotions and meaningful encounters.",
         "signature": "Lucien"
     },
+    "testimonials": {
+        "eyebrow": "They discovered Paris",
+        "title": "What our visitors say",
+        "description": "A few memories shared after discovering Paris with Lucien.",
+        "rating": "Rating: {{count}} out of 5 stars",
+        "carousel": {
+            "label": "Visitor testimonials",
+            "roledescription": "carousel",
+            "slide": "testimonial",
+            "previous": "Show the previous testimonial",
+            "next": "Show the next testimonial",
+            "goToSlide": "Show testimonial {{number}}",
+            "position": "Testimonial {{current}} of {{total}}"
+        },
+        "items": {
+            "first": {
+                "quote": "Add the first customer testimonial here.",
+                "author": "First customer",
+                "details": "City · Tour taken"
+            },
+            "second": {
+                "quote": "Add the second customer testimonial here.",
+                "author": "Second customer",
+                "details": "City · Tour taken"
+            },
+            "third": {
+                "quote": "Add the third customer testimonial here.",
+                "author": "Third customer",
+                "details": "City · Tour taken"
+            }
+        }
+    },
     "footer": {
         "description": "Guided tours that reveal a different side of Paris through its stories, places and people.",
         "explore": "Explore",

@@ -1,4 +1,4 @@
-import type { CarouselTour } from "../components/Carousel/Carousel.tsx";
+import type { CarouselTour } from "../types/tour";
 
 import MaraisImage from "../assets/marais.jpg";
 import MontmartreImage from "../assets/montmartre.jpg";

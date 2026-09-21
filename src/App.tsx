@@ -1,32 +1,13 @@
 import Header from './components/Header/Header.tsx'
-import Carousel, { type CarouselTour, } from './components/Carousel/Carousel.tsx'
+import TourCarousel from './components/TourCarousel/TourCarousel.tsx'
 import CategoryTours from './components/CategoryTours/CategoryTours.tsx'
 import Footer from './components/Footer/Footer.tsx'
 import AboutGuide from './components/AboutGuide/AboutGuide.tsx'
 import './App.scss'
-
-import LatinImage from "./assets/latin.jpg";
-import MontmartreImage from "./assets/montmartre.jpg";
-import MaraisImage from "./assets/marais.jpg";
+import { tours } from './data/tours.ts'
 import LucienPortrait from "./assets/lucien_portrait.jpg";
-
-const tours = [
-  {
-    id: "latin",
-    image: LatinImage,
-    href: "#latin",
-  },
-  {
-    id: "montmartre",
-    image: MontmartreImage,
-    href: "#montmartre",
-  },
-  {
-    id: "marais",
-    image: MaraisImage,
-    href: "#marais",
-  },
-] satisfies readonly CarouselTour[];
+import TestimonialsCarousel from "./components/TestimonialsCarousel/TestimonialsCarousel.tsx";
+import { testimonials } from "./data/testimonials.ts";
 
 function App() {
 
@@ -35,9 +16,10 @@ function App() {
     <>
       <Header />
       <main>
-        <Carousel tours={tours} />
+        <TourCarousel tours={tours} />
         <CategoryTours />
         <AboutGuide portrait={LucienPortrait} />
+        <TestimonialsCarousel testimonials={testimonials} />
       </main>
       <Footer
         email="info@lucienaparis.com"
