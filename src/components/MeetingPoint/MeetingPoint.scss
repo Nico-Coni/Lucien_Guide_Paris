@@ -1,0 +1,105 @@
+.meeting-point {
+    padding: clamp(75px, 9vw, 120px) 0;
+    background: var(--cream);
+
+    &__inner {
+        display: grid;
+        grid-template-columns: minmax(280px, 0.75fr) minmax(420px, 1.25fr);
+        align-items: stretch;
+        gap: clamp(40px, 7vw, 80px);
+        width: min(1180px, calc(100% - 48px));
+        margin: 0 auto;
+    }
+
+    &__content {
+        align-self: center;
+
+        h2 {
+            margin: 0 0 26px;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: clamp(2.2rem, 4vw, 3.5rem);
+            font-weight: 500;
+            line-height: 1.05;
+        }
+
+        >p:not(.meeting-point__eyebrow) {
+            color: #586779;
+            line-height: 1.7;
+        }
+
+        >a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 16px;
+            color: var(--red);
+            font-weight: 800;
+            text-decoration: none;
+        }
+    }
+
+    &__eyebrow {
+        margin: 0 0 14px;
+        color: var(--green);
+        font-size: 0.74rem;
+        font-weight: 800;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+    }
+
+    &__address {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        color: var(--navy);
+
+        address {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.15rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.5;
+        }
+    }
+
+    &__map-wrapper {
+        min-height: 420px;
+        overflow: hidden;
+        background: #e5e1d8;
+        border-radius: 12px;
+        box-shadow: 0 22px 55px rgba(23, 59, 101, 0.15);
+    }
+
+    &__map {
+        display: block;
+        width: 100%;
+        height: 100%;
+        min-height: 420px;
+        border: 0;
+    }
+
+    &__map-placeholder {
+        display: grid;
+        height: 100%;
+        min-height: 420px;
+        align-content: center;
+        justify-items: center;
+        padding: 32px;
+        color: var(--navy);
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .meeting-point {
+        &__inner {
+            grid-template-columns: 1fr;
+            width: min(620px, calc(100% - 32px));
+        }
+
+        &__map-wrapper,
+        &__map {
+            min-height: 320px;
+        }
+    }
+}

@@ -23,6 +23,7 @@ export const tour = defineType({
     type: "document",
     icon: DocumentTextIcon,
 
+
     fields: [
         defineField({
             name: "title",
@@ -129,6 +130,53 @@ export const tour = defineType({
                 }),
             ],
         }),
+        defineField({
+            name: "meetingPoint",
+            title: "Point de rendez-vous",
+            type: "object",
+            description: "Lieu où débute la visite.",
+            options: {
+                collapsible: true,
+                collapsed: false,
+            },
+
+            fields: [
+                defineField({
+                    name: "name",
+                    title: "Nom du point de rendez-vous",
+                    type: "internationalizedArrayString",
+                    description:
+                        "Exemple : Sortie du métro Palais Royal – Musée du Louvre.",
+                    validation: (rule) =>
+                        rule.custom((value) =>
+                            getFrenchText(value)
+                                ? true
+                                : "Renseigne le nom du lieu en français.",
+                        ),
+                }),
+
+                defineField({
+                    name: "address",
+                    title: "Adresse",
+                    type: "string",
+                    description: "Exemple : Place du Palais Royal, 75001 Paris.",
+                    validation: (rule) => rule.required(),
+                }),
+
+                defineField({
+                    name: "instructions",
+                    title: "Instructions complémentaires",
+                    type: "internationalizedArrayText",
+                    description:
+                        "Exemple : Retrouvez-moi devant la sortie 1, avec un parapluie rouge.",
+                }),
+            ],
+
+            validation: (rule) =>
+                rule
+                    .required()
+                    .warning("Pense à renseigner le point de rendez-vous."),
+        }),
 
         defineField({
             name: "durationMinutes",
@@ -148,6 +196,7 @@ export const tour = defineType({
             validation: (rule) => rule.min(0),
         }),
     ],
+
 
     preview: {
         select: {

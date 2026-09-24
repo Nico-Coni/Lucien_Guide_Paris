@@ -224,5 +224,38 @@
             "description": "Choisissez une visite existante ou contactez-moi pour imaginer un parcours personnalisé.",
             "button": "Voir les visites"
         }
+    },
+    "tourPage": {
+        "back": "Toutes les visites",
+        "more": "Voir les informations",
+        "informationEyebrow": "Votre visite",
+        "informationTitle": "Découvrez le programme",
+        "descriptionComplement": "Cette visite est pensée comme un moment d’échange vivant et accessible. Le parcours peut évoluer selon votre rythme, vos questions et les conditions du jour.",
+        "practicalTitle": "Informations pratiques",
+        "duration": "Durée",
+        "price": "Tarif",
+        "category": "Type de visite",
+        "book": "Demander une réservation",
+        "notFoundTitle": "Visite introuvable",
+        "notFoundDescription": "Cette visite n’existe pas ou n’est plus disponible.",
+        "backHome": "Retour à l’accueil",
+        "gallery": {
+            "label": "Galerie photo de la visite {{title}}",
+            "roledescription": "carrousel",
+            "slide": "photo",
+            "previous": "Afficher la photo précédente",
+            "next": "Afficher la photo suivante",
+            "goToSlide": "Afficher la photo {{number}}",
+            "position": "Photo {{current}} sur {{total}}",
+            "imageAlt": "Photo {{number}} de la visite {{title}}"
+        }
+    },
+    "meetingPoint": {
+        "eyebrow": "Comment nous retrouver",
+        "title": "Point de rendez-vous",
+        "description": "Le lieu exact vous sera également rappelé lors de la confirmation de votre réservation.",
+        "directions": "Obtenir l’itinéraire",
+        "mapTitle": "Carte du point de rendez-vous : {{address}}",
+        "missingApiKey": "La carte sera disponible après la configuration de la clé Google Maps."
     }
 }

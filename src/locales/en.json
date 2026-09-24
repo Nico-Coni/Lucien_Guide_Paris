@@ -143,5 +143,38 @@
         "copyright": "True stories, one step at a time.",
         "legalNotice": "Legal notice",
         "privacyPolicy": "Privacy policy"
+    },
+    "tourPage": {
+        "back": "All tours",
+        "more": "View tour information",
+        "informationEyebrow": "Your tour",
+        "informationTitle": "Discover the programme",
+        "descriptionComplement": "This tour is designed as an engaging and accessible experience. The itinerary may evolve depending on your pace, your questions and the conditions of the day.",
+        "practicalTitle": "Practical information",
+        "duration": "Duration",
+        "price": "Price",
+        "category": "Tour type",
+        "book": "Request a booking",
+        "notFoundTitle": "Tour not found",
+        "notFoundDescription": "This tour does not exist or is no longer available.",
+        "backHome": "Return home",
+        "gallery": {
+            "label": "Photo gallery for the {{title}} tour",
+            "roledescription": "carousel",
+            "slide": "photo",
+            "previous": "Show the previous photo",
+            "next": "Show the next photo",
+            "goToSlide": "Show photo {{number}}",
+            "position": "Photo {{current}} of {{total}}",
+            "imageAlt": "Photo {{number}} of the {{title}} tour"
+        }
+    },
+    "meetingPoint": {
+        "eyebrow": "How to find us",
+        "title": "Meeting point",
+        "description": "The exact meeting place will also be included in your booking confirmation.",
+        "directions": "Get directions",
+        "mapTitle": "Meeting point map: {{address}}",
+        "missingApiKey": "The map will be available once the Google Maps key has been configured."
     }
 }
