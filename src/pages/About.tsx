@@ -220,7 +220,7 @@ function About(): JSX.Element {
                         <p>{t("aboutPage.cta.description")}</p>
                     </div>
 
-                    <Link className="about-page__button" to="/#visites">
+                    <Link className="about-page__button" to="/visites">
                         {t("aboutPage.cta.button")}
                         <span aria-hidden="true">→</span>
                     </Link>

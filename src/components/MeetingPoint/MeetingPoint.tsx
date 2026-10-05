@@ -4,11 +4,15 @@ import { ExternalLink, MapPin } from "lucide-react";
 import "./MeetingPoint.scss";
 
 type MeetingPointProps = {
+    name?: string;
     address: string;
+    instructions?: string;
 };
 
 function MeetingPoint({
+    name,
     address,
+    instructions,
 }: MeetingPointProps): JSX.Element {
     const { t, i18n } = useTranslation();
     const apiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
@@ -48,6 +52,10 @@ function MeetingPoint({
                         {t("meetingPoint.title")}
                     </h2>
 
+                    {name && (
+                        <p className="meeting-point__name">{name}</p>
+                    )}
+
                     <div className="meeting-point__address">
                         <MapPin
                             size={25}
@@ -58,7 +66,9 @@ function MeetingPoint({
                         <address>{address}</address>
                     </div>
 
-                    <p>{t("meetingPoint.description")}</p>
+                    <p>
+                        {instructions || t("meetingPoint.description")}
+                    </p>
 
                     <a
                         href={directionsUrl}

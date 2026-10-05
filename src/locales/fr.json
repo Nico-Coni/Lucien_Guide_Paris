@@ -60,6 +60,11 @@
         "description": "Des visites adaptées à vos envies pour découvrir les musées, les monuments et les lieux secrets de la capitale.",
         "discover": "Découvrir",
         "openCategory": "Découvrir la catégorie : {{title}}",
+        "imageAlt": "Illustration de la catégorie {{title}}",
+        "loading": "Chargement des catégories…",
+        "loadError": "Impossible de charger les catégories pour le moment.",
+        "retry": "Réessayer",
+        "empty": "Aucune catégorie n’est disponible pour le moment.",
         "categories": {
             "museums": {
                 "title": "Visites de musées",
@@ -225,6 +230,27 @@
             "button": "Voir les visites"
         }
     },
+    "toursPage": {
+        "eyebrow": "Visiter Paris autrement",
+        "title": "Toutes les visites",
+        "description": "Parcourez les visites proposées par Lucien et choisissez l’expérience qui correspond à vos envies.",
+        "catalogueTitle": "Les visites disponibles",
+        "filtersLabel": "Filtrer les visites par catégorie",
+        "allCategories": "Toutes",
+        "results_one": "{{count}} visite disponible",
+        "results_other": "{{count}} visites disponibles",
+        "loading": "Chargement des visites…",
+        "errorTitle": "Impossible de charger les visites",
+        "errorDescription": "Une erreur est survenue lors de la connexion à Sanity.",
+        "retry": "Réessayer",
+        "emptyTitle": "Aucune visite disponible",
+        "emptyDescription": "Aucune visite ne correspond actuellement à cette catégorie.",
+        "card": {
+            "open": "Découvrir la visite : {{title}}",
+            "imageAlt": "Photo de la visite {{title}}",
+            "onRequest": "Sur devis"
+        }
+    },
     "tourPage": {
         "back": "Toutes les visites",
         "more": "Voir les informations",
@@ -236,6 +262,11 @@
         "price": "Tarif",
         "category": "Type de visite",
         "book": "Demander une réservation",
+        "bookingSubject": "Demande de réservation — {{title}}",
+        "onRequest": "Sur devis",
+        "loading": "Chargement de la visite…",
+        "loadErrorTitle": "Impossible de charger la visite",
+        "loadErrorDescription": "Une erreur est survenue lors de la connexion à Sanity. Réessayez dans quelques instants.",
         "notFoundTitle": "Visite introuvable",
         "notFoundDescription": "Cette visite n’existe pas ou n’est plus disponible.",
         "backHome": "Retour à l’accueil",

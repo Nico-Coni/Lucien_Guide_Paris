@@ -60,6 +60,11 @@
         "description": "Tours tailored to your interests, from museums and monuments to the hidden treasures of the French capital.",
         "discover": "Discover",
         "openCategory": "Discover the category: {{title}}",
+        "imageAlt": "Illustration for the {{title}} category",
+        "loading": "Loading categories…",
+        "loadError": "Unable to load the categories at the moment.",
+        "retry": "Try again",
+        "empty": "No categories are currently available.",
         "categories": {
             "museums": {
                 "title": "Museum tours",
@@ -144,6 +149,27 @@
         "legalNotice": "Legal notice",
         "privacyPolicy": "Privacy policy"
     },
+    "toursPage": {
+        "eyebrow": "Experience Paris differently",
+        "title": "All tours",
+        "description": "Browse Lucien’s tours and choose the Paris experience that best matches your interests.",
+        "catalogueTitle": "Available tours",
+        "filtersLabel": "Filter tours by category",
+        "allCategories": "All",
+        "results_one": "{{count}} tour available",
+        "results_other": "{{count}} tours available",
+        "loading": "Loading tours…",
+        "errorTitle": "Unable to load the tours",
+        "errorDescription": "An error occurred while connecting to Sanity.",
+        "retry": "Try again",
+        "emptyTitle": "No tours available",
+        "emptyDescription": "There are currently no tours in this category.",
+        "card": {
+            "open": "Discover the tour: {{title}}",
+            "imageAlt": "Photo of the {{title}} tour",
+            "onRequest": "Price on request"
+        }
+    },
     "tourPage": {
         "back": "All tours",
         "more": "View tour information",
@@ -155,6 +181,11 @@
         "price": "Price",
         "category": "Tour type",
         "book": "Request a booking",
+        "bookingSubject": "Booking request — {{title}}",
+        "onRequest": "Price on request",
+        "loading": "Loading the tour…",
+        "loadErrorTitle": "Unable to load the tour",
+        "loadErrorDescription": "An error occurred while connecting to Sanity. Please try again shortly.",
         "notFoundTitle": "Tour not found",
         "notFoundDescription": "This tour does not exist or is no longer available.",
         "backHome": "Return home",

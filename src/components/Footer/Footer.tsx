@@ -18,10 +18,10 @@ type FooterProps = {
 };
 
 const navigation = [
-    { labelKey: "header.navigation.home", href: "#accueil" },
-    { labelKey: "header.navigation.tours", href: "#visites" },
-    { labelKey: "header.navigation.about", href: "#a-propos" },
-    { labelKey: "header.navigation.contact", href: "#contact" },
+    { labelKey: "header.navigation.home", href: "/" },
+    { labelKey: "header.navigation.tours", href: "/visites" },
+    { labelKey: "header.navigation.about", href: "/about" },
+    { labelKey: "header.navigation.contact", href: "/#contact" },
 ] as const;
 
 function Footer({
@@ -39,7 +39,7 @@ function Footer({
                     <div className="site-footer__brand-column">
                         <a
                             className="footer-brand"
-                            href="#accueil"
+                            href="/"
                             aria-label={t("header.brandHomeLabel")}
                         >
                             <img src={Louvre} alt="" aria-hidden="true" />

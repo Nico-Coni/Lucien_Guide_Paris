@@ -47,6 +47,14 @@
         text-transform: uppercase;
     }
 
+    &__name {
+        margin: 0 0 14px;
+        color: var(--navy);
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
     &__address {
         display: flex;
         align-items: flex-start;

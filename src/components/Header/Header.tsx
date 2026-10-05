@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router";
 import type { SupportedLanguage } from "../../i18n";
 import './Header.scss'
 import Louvre from '../../assets/images/louvre.svg'
@@ -10,15 +11,16 @@ import EnglishFlag from '../../assets/images/uk-flag.svg'
 
 const navigation = [
     { labelKey: "header.navigation.home", href: "/" },
-    { labelKey: "header.navigation.tours", href: "#visites" },
-    { labelKey: "header.navigation.about", href: "/About" },
-    { labelKey: "header.navigation.contact", href: "#contact" },
+    { labelKey: "header.navigation.tours", href: "/visites" },
+    { labelKey: "header.navigation.about", href: "/about" },
+    { labelKey: "header.navigation.contact", href: "/#contact" },
 ] as const;
 
 
 function Header(): React.JSX.Element {
     const [menuIsOpen, setMenuIsOpen] = useState(false);
     const { t, i18n } = useTranslation();
+    const { pathname } = useLocation();
     const currentLanguage: SupportedLanguage = i18n.resolvedLanguage?.startsWith(
         "en",
     )
@@ -74,18 +76,25 @@ function Header(): React.JSX.Element {
                 >
                     <nav aria-label={t("header.mainNavigation")}>
                         <ul className="navigation">
-                            {navigation.map((item, index) => (
-                                <li key={item.href}>
-                                    <a
-                                        className={`navigation__link${index === 0 ? " is-active" : ""}`}
-                                        href={item.href}
-                                        aria-current={index === 0 ? "page" : undefined}
-                                        onClick={closeMenu}
-                                    >
-                                        {t(item.labelKey)}
-                                    </a>
-                                </li>
-                            ))}
+                            {navigation.map((item) => {
+                                const isActive = item.href === "/"
+                                    ? pathname === "/"
+                                    : item.href !== "/#contact" &&
+                                    pathname.toLowerCase().startsWith(item.href);
+
+                                return (
+                                    <li key={item.href}>
+                                        <a
+                                            className={`navigation__link${isActive ? " is-active" : ""}`}
+                                            href={item.href}
+                                            aria-current={isActive ? "page" : undefined}
+                                            onClick={closeMenu}
+                                        >
+                                            {t(item.labelKey)}
+                                        </a>
+                                    </li>
+                                );
+                            })}
                         </ul>
                     </nav>
 
